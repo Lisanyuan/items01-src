@@ -1,0 +1,60 @@
+@import'public.scss';
+
+#box1{
+    width:1020px;
+    height:40px;
+    margin-left:110px;
+    ul li a{
+        float:left;
+        width:85px;
+        color:black;
+        text-align: center;
+        line-height: 40px;
+    }
+    ul li:nth-of-type(1) a{
+        background:red;
+        color:#fff;
+    }
+    .box101{
+            width:100%;
+            height:60px;
+            background:red;
+            position: absolute;
+            margin:40px -110px;
+            display:none;
+            ul{
+                width:1212px;
+                height:60px;
+                margin-left:110px;
+                li{
+                    float:left;
+                    width:200px;
+                    height:60px;
+                    border-left:2px dotted #fff;
+                    p{
+                        font-size:15px;
+                        color:#fff;
+                        background:red;
+                        width:200px;
+                        span a{
+                            font-size:12px;
+                            float:left;
+                            width:50px;
+                        }
+                    }
+                }
+            }           
+        }
+    ul li:hover a{
+        background:red;
+        color:#fff;      
+    }
+   ul li:hover .box101{
+       display:block;
+   } 
+}
+h6{
+    width:100%;
+    height:4px;
+    background:red;
+}

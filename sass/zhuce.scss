@@ -1,0 +1,125 @@
+//注册
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+#logo{
+    width:810px;
+    height:69px;
+    margin:60px 200px;
+}
+
+#box{
+    width:810px;
+    height:400px;
+    margin:-40px 200px;
+    ul{
+        width:810px;
+        height:40px;
+        border-bottom:3px solid #A9A9A9;
+        li{
+            float:left;
+            width:270px;
+            height:40px;
+            span{
+                display:inline-block;
+                height:40px;
+                width:200px;
+                text-align:center;
+                line-height:40px;
+                font-size:17px;
+                margin-left:35px;
+                border-bottom:3px solid red;
+            }
+        }
+    }
+    #zhu{
+        width:810px;
+        height:320px;
+        margin-top:37px;
+        .zhanghao{
+            width:410px;
+            height:50px;
+            margin:0 auto;
+            position:relative;
+            .span01{
+                display:inline-block;
+                width:80px;
+                height:50px;
+                text-align:right;
+                font-size:15px;
+                line-height:50px;              
+            }
+            .span02{
+                display:block;
+                width:250px;
+                height:30px;
+                font-size:15px;
+                text-align:right;
+                line-height:30px;
+                position:absolute;
+                margin-left:345px;
+                margin-top:-40px;
+            }
+            input{
+                width:250px;
+                height:30px;
+            }
+        }
+        .mima{
+            width:410px;
+            height:50px;
+            margin:0 auto;
+            margin-top:30px;
+            .span01{
+                display:inline-block;
+                width:80px;
+                height:50px;
+                text-align:right;
+                font-size:15px;
+                line-height:50px;
+            }
+            .span02{
+                display:block;
+                width:300px;
+                height:30px;
+                font-size:15px;
+                text-align:right;
+                line-height:30px;
+                position:absolute;
+                margin-left:345px;
+                margin-top:-40px;
+            }
+            input{
+                width:250px;
+                height:30px;
+            }
+        }
+        .xuanze{
+            width:410px;
+            height:30px;
+            font-size:14px;
+            margin:0 auto;
+            margin-top:30px;
+            input{
+                margin-left:60px;
+            }
+        }
+        h3{
+            width:410px;
+            height:30px;
+            margin:0 auto;
+            margin-top:30px;
+            input{
+                width:50px;
+                height:30px;               
+            }
+            #registor{
+                margin-left:150px;
+            }
+        }
+    }
+}
